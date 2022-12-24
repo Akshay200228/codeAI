@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //Fetch data from server
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://codeai-k7q2.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
